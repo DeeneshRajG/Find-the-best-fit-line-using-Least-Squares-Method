@@ -21,7 +21,10 @@ program to implement univariate Linear Regression to fit a straight line using l
 Developed by: Deensh Raj G
 RegisterNumber:212225040056
 
-'''import numpy as np
+import numpy as np
+import matplotlib.pyplot as plt
+
+import numpy as np
 import matplotlib.pyplot as plt
 
 X = np.array([1, 2, 3, 4, 5])
@@ -53,7 +56,7 @@ plt.xlabel("X")
 plt.ylabel("Y")
 plt.legend()
 plt.title("Univariate Linear Regression")
-plt.show()'''
+plt.show()
 
 
 
